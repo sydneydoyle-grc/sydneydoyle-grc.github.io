@@ -1,0 +1,75 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <!-- You can start by deleting this line. Then, you can delete the other comments as you read them. -->
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- You need this to proper scale in actual mobile devices.-->
+             <!-- Don’t forget to link to your CSS here. -->
+             <link rel="stylesheet" href="style.css">
+
+            <title>Newsletter</title> <!-- This will be replaced with the actual name of the publication later.  -->
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+                <link rel="stylesheet" href="https://use.typekit.net/fyb2aje.css">
+
+        </head>	
+
+        <body>
+            <div class="container">
+                <header>
+                <!-- Same header as the home page. -->
+                <h1>
+                    <a href="index.html">
+                    <img src="stride-logo.svg" alt="Stride logo" class="logo">
+                </a>
+                </h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Training & Tips</a></li>
+                        <li><a href="#">Gear Reviews</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </nav>   
+            </header>
+               <main class="newsletter">
+                <!-- <figure>
+                    <img src="newsletter.jpg" alt="A runner on a scenic trail."/>
+                </figure> -->
+                <form>
+                    <section class="personal-info">
+                        <h2>Join our Newsletter!</h2>
+                        <ul>
+                            <li><label for="name">Name</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                            <li><label for="email">Email</label> <input type="text" name="email" id="email" placeholder="your email address" /></li>
+                       </ul>
+
+                    <h3>What interests you?</h3>
+                    <ul>
+                        <li><input type="checkbox" id="trails" value="trails" /> <label for="trails">Trails</label></li>
+                        <li><input type="checkbox" id="races" value="races" /> <label for="races">Races</label></li>
+                        <li><input type="checkbox" id="community" value="community" /> <label for="community">Community</label></li>
+                        <li><input type="checkbox" id="gear" value="gear" /> <label for="gear">Gear & Fuel</label></li>
+                        <li><input type="checkbox" id="ultras" value="ultras" /> <label for="ultras">Ultramarathons</label></li>
+                    </ul>    
+
+                    <section>
+                        <button type="subscribe">Subscribe</button>
+                    </section>
+
+                    </main>
+                <footer>
+                    <p>All rights reserved.</p>
+                </footer>
+                
+            </div>
+        </body>
+    </html>
+
+
