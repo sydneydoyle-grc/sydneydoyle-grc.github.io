@@ -384,10 +384,55 @@ button {
 
   nav img {
     width: 100%;
-    height: 150px;       
+    height: 10em;       
     object-fit: cover;    
     display: block;
   }
 
+  @media screen and (prefers-color-scheme: dark) {
+    h1 {  
+        background-image: url("stride-logo-darkmode.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain; 
+        width: 18.75em;
+        height: auto;
+        position: relative;
+    }  
 
-  
+    h1 img {  
+        opacity: 0;  
+        } 
+    
+    p {
+        color: rgb(255,255,255);
+    }
+
+    aside {
+        background-color: rgb(63, 62, 62);
+    }
+
+    nav ul li a {
+        color: #EADE5E;
+    }
+
+    footer {
+        background-color:#2B408A;
+    }
+
+    main.newsletter section {
+        background: rgb(63,62,62);
+    }
+
+    main.newsletter ul, h3 {
+        color: rgb(255, 255, 255);
+    }
+
+    body {
+        background-color:rgb(44, 43, 43);
+    }
+
+    div.photo-gallery figcaption {
+        color: rgb(255, 255, 255);
+    }
+}
+
